@@ -2,7 +2,6 @@ import { FaGoogle,FaGithub,FaFacebook, FaTwitter, FaInstagram } from 'react-icon
 import qZone1 from '../../../assets/qZone1.png';
 import qZone2 from '../../../assets/qZone2.png';
 import qZone3 from '../../../assets/qZone3.png';
-import bg from '../../../assets/bg.png';
 const RightSideNav = () => {
     return (
         <div >
@@ -39,10 +38,7 @@ const RightSideNav = () => {
             <img src={qZone2} alt="" />
             <img src={qZone3} alt="" />
            </div>
-           <div className='absolute'>
-              <img className='' src={bg} alt="" />
-              <h1 className='relative'>Create an Amazing Newspaper</h1>
-           </div>
+           
         </div>
         
     );
